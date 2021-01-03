@@ -7,18 +7,17 @@ body {background-color: #d5e6d8;}
 
 h1 {
     font-size: 2rem;
-    width: 8rem;
     text-align: center;
     display: block;
     margin: 20px auto 0 auto;
 }
 
-body img#tori {width: 70%; max-width: 500px; display: block; margin: 0 auto;}
+body img#tori {width: 80%; max-width: 500px; display: block; margin: 0 auto;}
 
 body div#omikuji_wrap {display: block; margin: 0 auto; text-align: center;}
 body div#omikuji_wrap p {margin: 10px 0;}
 
-body div#omikujiImgWrap {position: relative;}
+body div#omikujiImgWrap {position: relative; top: -100px;}
 body div#omikujiImgWrap img#omikujiBox {width: 100px; display: block; margin: 0 auto;}
 body div#omikujiImgWrap img#omikujistic {position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 100px; display: block; margin: 0 auto; opacity: 0;}
 
